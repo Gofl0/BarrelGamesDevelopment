@@ -39,7 +39,7 @@
 }
 
 .dropbtn {
-  color: black;
+  color: rgb(30,30,30);
   padding: 16px;
   font-size: 16px;
   font-weight: 300;
@@ -76,5 +76,20 @@
 }
 
 .dropdown:hover .dropbtn {
-  color: darkslategray;
+  color: rgb(70,70,70);
+}
+
+.GameOfDayContainer {
+  background-color: pink;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 0.7fr 0.3fr;
+}
+
+.GameOfToday {
+  background-color: red;
+}
+
+.previousGameOfDays {
+  background-color: darkred;
 }
