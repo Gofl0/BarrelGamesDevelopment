@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: Inter;
+  padding: none;
+  margin: 0;
+}
+
+.topNavs {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: rgb(220, 220, 220);
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 1.2em;
+  letter-spacing: -0.5px;
+  padding-right: 4%;
+  padding-left: 2%;
+}
+
+.topNav {
+  text-decoration: none;
+  font-weight: 200;
+  background-color: rgb(220, 220, 220);
+}
+
+.topNavLink {
+  text-decoration: none;
+  color: rgb(30,30,30);
+  padding: 2.3%;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.topNavLink:hover {
+  color: rgb(70,70,70);
+}
+
+.dropbtn {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 300;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(220, 220, 220);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: darkslategray;
+}
